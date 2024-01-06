@@ -1,0 +1,56 @@
+/*all*/
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.header{
+    background-color: #FFF8F3;
+}
+
+/*nav*/
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.h{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+    
+}
+.text-p{
+    color: #FD6E0A;
+}
+nav Ul{
+    display: flex;
+    align-items: center;
+}
+nav li {
+    list-style: none;
+    margin-right: 50px;
+
+}
+nav a{
+   text-decoration: none;
+   color: #474747;
+}
+
+.btn-p{
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+
+    padding:12px 31px ;
+}
+/*banner*/
+.banner{
+    padding: 30px 30px 30px 207px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-pik{
+       width: 400px;
+}
